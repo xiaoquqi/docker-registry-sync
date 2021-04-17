@@ -1,0 +1,5 @@
+dist: bionic
+language: shell
+
+script: 
+  - ./sync.sh registry registry_username registry_password repo
